@@ -1,6 +1,7 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: The Candela Post
+  icon: 🚀
+  site: 'https://the-candela-post.vercel.app'
   base: '/'
   trailingSlash: false
 
@@ -9,26 +10,26 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: The Candela Post
+    template: '%s — The Candela Post'
+  description: "\U0001F680 Información para entrenar la mente."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: The Candela Post
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
+    handle: '@jcarloscandela'
+    site: '@jcarloscandela'
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: es
   textDirection: ltr
 
 apps:

@@ -6,6 +6,7 @@ import type { MetaData } from '~/types';
 
 export interface SiteConfig {
   name: string;
+  icon: string;
   site?: string;
   base?: string;
   trailingSlash?: boolean;
